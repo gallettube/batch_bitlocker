@@ -1,6 +1,6 @@
 @echo off
 setlocal enableDelayedExpansion
-FOR /l %%N in (0,1,999999999999999999999999999999999999999999999999) do (
+FOR /l %%N in (0,1,999999) do (
 	if %%N lss 10 (
 		set N=00000%%N
 	    ECHO 000000-000000-000000-000000-000000-000000-0000000-!N!>>C:\Users\pc\Desktop\log.txt
